@@ -1,0 +1,127 @@
+*{
+    margin:auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+header figure img{
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width: 130px;
+    max-height: 470px;
+}
+
+.conhecendo{
+    width: auto;
+    height: 100px;
+    background-color: rgb(226, 30, 30);
+}
+
+.conhecendo h2{
+    display: block;
+    color: white;
+    font-weight: lighter;
+    padding-top: 38px;
+    text-align: center;
+    text-shadow: -1px -1px 0px rgb(22, 22, 87), 
+    -2px 2px 1px rgb(22, 22, 87),                    
+     1px -1px 0px rgb(22, 22, 87),                  
+     1px 0px 0px rgb(22, 22, 87);
+}
+
+.banner{
+    padding: 20px; 
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.banner img{
+    padding-top: 15px;
+    width: auto;
+    height: auto;
+    max-width: 1519px;
+}
+
+.intro{
+    display: block;
+    border: 3px solid #424242;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.intro h4{
+    font-size: larger;
+    color: black;
+    text-align: justify;
+}
+
+.maisinfo h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+
+ul {
+    margin: 150px auto 0;
+    width: 1903px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    background-color: #0D60B7;
+}
+
+li {
+    display: table-cell;
+    position: relative;
+    padding: 15px;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display:inline-block ;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: whidth 0.3s ease-in-out 0s, letft 0.3s ease-in-out 0s;
+    width: 0%;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    
+    ul {
+        margin-top: 40px;
+    }
+}
